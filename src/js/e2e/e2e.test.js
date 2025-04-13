@@ -24,9 +24,9 @@ describe("test popover", () => {
 
     browser = await puppeteer.launch(
       {
-        headless: false, // show gui
-        slowMo: 1000,
-        args: ["--no-sandbox"],
+        headless: true, // show gui
+        // slowMo: 1000,
+        // args: ["--no-sandbox"],
         // devtools: true, // show devTools
       },
       1000
